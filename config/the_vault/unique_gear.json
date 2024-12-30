@@ -615,6 +615,29 @@
       },
       "modifierTags": [],
       "weight": 1
+    },
+    "woldsvaults:velara_chestplate": {
+      "name": "Gemheart Hauberk",
+      "model": "the_vault:gear/armor/castle/chestplate",
+      "modifierIdentifiers": {
+        "BASE_ATTRIBUTE": [
+          "the_vault:base_durability"
+        ],
+        "IMPLICIT": [
+          "the_vault:base_armor",
+          "the_vault:u_critical_hit_mitigation"
+        ],
+        "PREFIX": [
+          "the_vault:mod_health",
+          "the_vault:mod_thorns_max"
+        ],
+        "SUFFIX": [
+          "the_vault:u_velara_healing",
+          "the_vault:u_velara_durability_reduction"
+        ]
+      },
+      "modifierTags": [],
+      "weight": 1
     }
   },
   "pools": {
@@ -711,6 +734,9 @@
     },
     "woldsvaults:hexblade": {
       "woldsvaults:hexblade": 1
+    },
+    "woldsvaults:velara_chestplate": {
+      "woldsvaults:velara_chestplate": 1
     }
   }
 }

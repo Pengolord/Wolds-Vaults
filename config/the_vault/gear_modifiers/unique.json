@@ -1641,6 +1641,166 @@
         ]
       },
       {
+        "attribute": "the_vault:healing_effectiveness",
+        "group": "ModHealthEff",
+        "identifier": "the_vault:u_velara_healing",
+        "tags": [
+          "focusHealingEff"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": 50,
+            "weight": 100,
+            "value": {
+              "min": 0.3,
+              "max": 0.3,
+              "step": 0.1
+            }
+          },
+          {
+            "minLevel": 51,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.6,
+              "max": 0.6,
+              "step": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:durability_wear_reduction",
+        "group": "ModDurabilityReduction",
+        "identifier": "the_vault:u_velara_durability_reduction",
+        "tags": [
+          "focusDurabilityReduction"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": 74,
+            "weight": 10,
+            "value": {
+              "min": 0.05,
+              "max": 0.1,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 28,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.11,
+              "max": 0.14,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 45,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.15,
+              "max": 0.2,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 75,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.21,
+              "max": 0.25,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:thorns_damage_flat",
+        "group": "ModBlockThorns",
+        "identifier": "the_vault:mod_thorns_max",
+        "tags": [
+          "focusThornsDamage"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": 40,
+            "weight": 10,
+            "value": {
+              "min": 10.0,
+              "max": 10.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 41,
+            "maxLevel": 51,
+            "weight": 10,
+            "value": {
+              "min": 11.0,
+              "max": 16.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 52,
+            "maxLevel": 65,
+            "weight": 10,
+            "value": {
+              "min": 21.0,
+              "max": 21.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 66,
+            "maxLevel": 77,
+            "weight": 10,
+            "value": {
+              "min": 26.0,
+              "max": 26.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 78,
+            "maxLevel": 89,
+            "weight": 10,
+            "value": {
+              "min": 32.0,
+              "max": 32.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 90,
+            "maxLevel": 99,
+            "weight": 10,
+            "value": {
+              "min": 37.0,
+              "max": 37.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 44.0,
+              "max": 44.0,
+              "step": 0.5
+            }
+          }
+        ]
+      },
+      {
         "attribute": "the_vault:resistance",
         "group": "ModResistance",
         "identifier": "the_vault:mod_resistance",
